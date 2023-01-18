@@ -1,0 +1,2 @@
+## ArgoCD demo app
+
