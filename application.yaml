@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/carlos-dos-santos/java-demo-app.git
+    repoURL: https://github.com/carlos-dos-santos/argocd-demo-app.git
     targetRevision: HEAD
     path: dev
   destination: 
