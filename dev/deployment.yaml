@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: java-demo 
 spec:
   progressDeadlineSeconds: 600
   selector:
     matchLabels:
-      app: myapp
+      app: java-demo 
   replicas: 2
   template:
     metadata:
       labels:
-        app: myapp
+        app: java-demo 
     spec:
       containers:
-      - name: myapp
-        image: machamba/java-demo-app:v1.0.0
+      - name: java-demo 
+        image: machamba/java-demo-app:1.2.0
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
