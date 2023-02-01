@@ -4,7 +4,7 @@ metadata:
   name: argocd-demo-app
   namespace: argocd
   annotations:
-    notifications.argoproj.io/subscribe.on-sync-succeeded.gmail: carlos.machamba@gmail.com
+    notifications.argoproj.io/subscribe.on-sync-running.gmail: carlos.machamba@gmail.com
 spec:
   project: default
 
