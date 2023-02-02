@@ -5,6 +5,7 @@ metadata:
   namespace: argocd
   annotations:
     notifications.argoproj.io/subscribe.on-sync-succeeded.teams: channelName
+    notifications.argoproj.io/subscribe.on-sync-failed.teams: channelName
 spec:
   project: default
 
