@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: java-demo 
-        image: machamba/java-demo-app:1.2.9
+        image: machamba/java-demo-app:1.2.4
         imagePullPolicy: IfNotPresent 
         ports:
         - containerPort: 80
