@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: java-demo 
 spec:
-  progressDeadlineSeconds: 600
   selector:
     matchLabels:
       app: java-demo 
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
       - name: java-demo 
-        image: machamba/java-demo-app:1.2.4
+        image: machamba/java-demo-app:1.0.4
         imagePullPolicy: IfNotPresent 
         ports:
         - containerPort: 80
